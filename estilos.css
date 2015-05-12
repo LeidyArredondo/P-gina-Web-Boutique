@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> d6c3732a98f31ecafa560c5bcce944aa6db2f4cf
 @font-face {
 	font-family: 'Boutique';
 	src:url('Iconos/fonts/Boutique.eot?-hdk1i0');
@@ -87,7 +90,11 @@ body{
 	font-size: 16px;
 	font-family: sans-serif;
 	color:white;
+<<<<<<< HEAD
 	background: #d2d2d2;
+=======
+	background: #D6CAFF;
+>>>>>>> d6c3732a98f31ecafa560c5bcce944aa6db2f4cf
 }
 
 .container{
@@ -96,9 +103,14 @@ body{
 	background: white;
 	width: 95%;
 	height: 100%;
+<<<<<<< HEAD
 	border: 2px solid #FF64E8;
 	border-radius: 10px;	
 	box-shadow: rgba(0,0,0,1) 10px 10px 70px;
+=======
+	border: 2px solid red;
+	border-radius: 10px;
+>>>>>>> d6c3732a98f31ecafa560c5bcce944aa6db2f4cf
 
 }
 
@@ -112,7 +124,11 @@ header{
 
 	header h1{
 		text-align: center;
+<<<<<<< HEAD
 		font-family: 'Dancing Script', cursive;
+=======
+		font-family: Lobster;
+>>>>>>> d6c3732a98f31ecafa560c5bcce944aa6db2f4cf
 		font-size: 3em;
 		margin: 0; 
 	}
@@ -135,6 +151,7 @@ header{
 			vertical-align: center;
 		}
 
+<<<<<<< HEAD
 		li:first-child{
 
 			margin-left: 15em;
@@ -176,6 +193,39 @@ header{
 			} 
 	 
 				
+=======
+			#linkcompra{
+
+				margin-left: 15em;
+				color: white;
+			}
+
+			.item{
+				text-decoration: none;
+				vertical-align: center;
+				color: white;
+				margin: 1em 4em;
+			}
+
+			a:hover {
+				color:red;
+				text-decoration: underline;
+			}
+
+			#cuadro {
+
+				position: absolute;
+				top: 0;
+				right: 0;
+				margin: 1.2em 5em 0 0;
+			} 
+	 
+				#textol{
+
+				border-radius: 0.3em;
+			}
+
+>>>>>>> d6c3732a98f31ecafa560c5bcce944aa6db2f4cf
 .logos_header{
 	position: absolute;
 	right: 0;
@@ -192,13 +242,17 @@ header{
 		margin-right: 2em;
 	}
 
+<<<<<<< HEAD
 	
 
+=======
+>>>>>>> d6c3732a98f31ecafa560c5bcce944aa6db2f4cf
 .button{
 
 	text-decoration: none;
 	color: white;
 	position: absolute;
+<<<<<<< HEAD
 	top: 3em;
 	margin-left: 5em;
 	padding: 0.5em 1em;
@@ -210,6 +264,15 @@ header{
 		color:white;
 	}
 
+=======
+	top: 1em;
+	margin-left: 5em;
+	padding: 0.5em 1em;
+	background: red;
+	border-radius: 0.3em;
+}
+
+>>>>>>> d6c3732a98f31ecafa560c5bcce944aa6db2f4cf
 section{
 
 	margin: 2em; 
@@ -229,11 +292,14 @@ section{
 		display: table-cell;
 	}
 
+<<<<<<< HEAD
 
 		figure img{
 			border: 2px solid black;
 			box-shadow: rgba(255,100,232,4) 10px 10px 10px;
 		}
+=======
+>>>>>>> d6c3732a98f31ecafa560c5bcce944aa6db2f4cf
 		.titulo_coleccion{
 			color: black;
 			margin: 1em 0;
@@ -247,9 +313,15 @@ footer{
 	border-radius: 0 0 8px 8px; 
 }
 
+<<<<<<< HEAD
 footer+h2{
 	margin-top: 2em;
 }
 
 		.icon-facebook, .icon-twitter{
 			font-size: 2em;
+=======
+		.icon-facebook, .icon-twitter{
+			font-size: 2em;
+		}
+>>>>>>> d6c3732a98f31ecafa560c5bcce944aa6db2f4cf
