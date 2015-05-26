@@ -1,0 +1,117 @@
+body{
+	font-size: 16px;
+	font-family: sans-serif;
+	color:white; 
+	background: #d2d2d2;  
+}
+
+.container{
+
+	margin: 2em;
+	background: white;
+	width: 95%;
+	height: 37em;
+	border: 2px solid #FF64E8;
+	border-radius: 10px;	
+	box-shadow: rgba(0,0,0,1) 10px 10px 70px; 
+	position: relative;
+	text-align: center;
+
+}
+
+header{
+	height: 10em;
+	background: black;
+	position: relative;
+	width: 100%;
+	border-radius: 8px 8px 0 0;
+}
+
+	header .titulo{
+		text-align: center; 
+		font-family: 'Dancing Script', cursive; 
+		font-size: 3em;
+		margin: 0; 
+	}
+
+
+p{
+	color: black;
+}
+
+.numerodocumento{
+	width: 45%;
+	height: 2em;
+	margin: 2em;
+	color: black;
+}
+
+.contraseña{
+	width: 45%;
+	height: 2em;
+	margin: 2em;
+	color: black;
+	
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+form{
+	margin: 0 35em 0 0;
+	width: 100%;
+	display: inline-block; 
+}
+
+input{
+
+	height: 2em;
+	border-radius: 3px;
+	box-shadow: rgba(255,100,232,4) 10px 10px 10px;
+	border: 1px solid black;
+}
+
+.numerodocumento .textodocumento{
+	margin-left: 15em;
+}
+
+.contraseña .textodocumento{
+	margin-left: 13em;
+}
+
+.labeldocumento{
+	position: absolute;
+}
+.botones{
+	margin: 1em 2em 1em 4em;
+}
+
+.botoningresar{
+	padding: .5em 1em;
+	background: #FF64E8;
+	border-radius: 5px;
+}
+
+.botonvolver{
+	padding: .5em 1em;
+	background: #FF64E8;
+	border-radius: 5px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin: 1em;
+}
+
+.ladoizquierdo{
+	width: 45%;
+	margin: 0;
+	display: inline-block;
+}
+
+.ladoderecho{
+	width: 45%;
+	margin: 0;
+	display: inline-block;
+}
