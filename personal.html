@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Boutique Black and White</title> 
+	<link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="Normalize.css">
+	<link rel="stylesheet" href="estilospersonal.css">
+	<link rel="shortcut icon" href="icono.ico" type="C:\Users\Leidy\Desktop\WebBoutique\icono.ico">
+</head>
+<body>
+	<div class= "container">
+	  <header>
+        <h1 class="titulo">Gestionar Personal</h1>
+        <p>Los campos marcados con (*) son obligatorios</p>
+ 	  </header>
+ 	    <h2>Datos Personales</h2>
+ 	  <form method="post">
+ 	  <div class="ladoizquierdo">
+       <div class="cbxrecuperar">
+          <label class="labelpregunta">(*)Tipo Documento:  </label>
+          
+         <select name="cbxrecuperar" onChange="combo(this, 'recuperarcontra')" onMouseOut="comboInit(this, 'recuperarcontra')">
+          <option> Cédula de Ciudadania </option>
+          <option> Cédula de Extranjería </option>
+          <option> Pasaporte </option>
+          <option> Nit </option>
+         </select>
+       </div>
+       <div class="numerodocumento">
+      		<label class="labeldocumento"> (*)Nombres Completo: </label>
+      	    <input type="text" placeholder="usuario" class="textodocumento"> 
+       </div>
+       <div class="cbxrecuperar">
+          <label class="labelpregunta">(*)Departamento:  </label>
+          
+         <select name="cbxrecuperar" onChange="combo(this, 'recuperarcontra')" onMouseOut="comboInit(this, 'recuperarcontra')">
+          <option> Nombre de mascota </option>
+          <option> Mejor amigo de la infancia </option>
+          <option> Color Favorito </option>
+         </select>
+       </div>
+       <div class="cbxrecuperar">
+          <label class="labelpregunta">(*)Tipo de Sangre:  </label>
+          
+         <select name="cbxrecuperar" onChange="combo(this, 'recuperarcontra')" onMouseOut="comboInit(this, 'recuperarcontra')">
+          <option> Nombre de mascota </option>
+          <option> Mejor amigo de la infancia </option>
+          <option> Color Favorito </option>
+         </select>
+       </div>
+       <h2 class="titulo2">Domicilio</h2>
+       <div class="segundoizquierdo">
+
+       <div class="numerodocumento1">
+          <label class="labeldocumento1"> (*)Direccion: </label>
+            <input type="text" placeholder="usuario" class="textodocumento"> 
+       </div>
+       <div class="numerodocumento1">
+          <label class="labeldocumento1"> (*)Telefono Fijo: </label>
+            <input type="text" placeholder="usuario" class="textodocumento">
+       </div>
+       <div class="numerodocumento1">
+            <label class="labeldocumento1"> (*)Direccion: </label>
+            <input type="text" placeholder="usuario" class="textodocumento">
+       </div>
+       <div class="numerodocumento1">
+            <label class="labeldocumento1"> Correo Electronico: </label>
+            <input type="text" placeholder="usuario" class="textodocumento">
+       </div>
+       
+      </div>
+      <h2 class="titulo3">Datos Laborales</h2>
+      <div class="terceroizquierdo">
+
+        <div class="numerodocumento1">
+          <label class="labeldocumento1"> (*)Cargo: </label>
+            <input type="text" placeholder="usuario" class="textodocumento"> 
+       </div>
+       <div class="numerodocumento1">
+          <label class="labeldocumento1"> (*)Tipo de Contrato: </label>
+            <input type="text" placeholder="usuario" class="textodocumento">
+       </div>
+
+      </div>
+    </div>
+    
+
+      <div class="ladoderecho">
+        <div class="contraseña">
+      		<label class="labeldocumento"> (*)Docuento </label>
+                <input type="text" placeholder="Usuario" class="textodocumento">
+       </div>
+       <div class="contraseña">
+      		<label class="labeldocumento"> (*)Fecha Nacimiento </label>
+                <input type="text" placeholder="Usuario" class="textodocumento">
+       </div>
+       <div class="cbxrecuperar">
+          <label class="labelpregunta">(*)Municipio:  </label>
+          
+         <select name="cbxrecuperar" onChange="combo(this, 'recuperarcontra')" onMouseOut="comboInit(this, 'recuperarcontra')">
+          <option> Nombre de mascota </option>
+          <option> Mejor amigo de la infancia </option>
+          <option> Color Favorito </option>
+         </select>
+       </div>
+         <div class="cbxrecuperar">
+          <label class="labelpregunta">(*)Tipo Rh:  </label>
+          
+         <select name="cbxrecuperar" onChange="combo(this, 'recuperarcontra')" onMouseOut="comboInit(this, 'recuperarcontra')">
+          <option> Nombre de mascota </option>
+          <option> Mejor amigo de la infancia </option>
+          <option> Color Favorito </option>
+         </select>
+       </div>
+       <div class="segundoderecho">
+
+          <div class="contraseña">
+                <label class="labeldocumento"> (*)Barrio </label>
+                <input type="text" placeholder="Usuario" class="textodocumento">
+          </div>
+          <div class="contraseña">
+                <label class="labeldocumento"> (*)Telefono Movil </label>
+                <input type="text" placeholder="Usuario" class="textodocumento">
+          </div> 
+        </div>
+       <div class="terceroderecho">
+          <div class="contraseña">
+                <label class="labeldocumento"> (*)Fecha Contratación </label>
+                <input type="text" placeholder="Usuario" class="textodocumento">
+          </div>
+          <div class="contraseña">
+                <label class="labeldocumento"> (*)Estado </label>
+                <input type="text" placeholder="Usuario" class="textodocumento">
+          </div> 
+
+       </div> 
+        
+      	
+
+      </form>
