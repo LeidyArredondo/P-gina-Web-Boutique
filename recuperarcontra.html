@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Boutique Black and White</title> 
+	<link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="Normalize.css">
+	<link rel="stylesheet" href="estilosrecuperar.css">
+	<link rel="shortcut icon" href="icono.ico" type="C:\Users\Leidy\Desktop\WebBoutique\icono.ico">
+</head>
+<body>
+	<div class= "container">
+	  <header>
+        <h1 class="titulo"> Recuperar Contraseña</h1>
+        
+	  </header>
+	   <p>Los campos marcados con (*) son obligatorios</p>
+      <form method="post">
+       <div class="usuario">
+          <label class="labelusuario">(*)Nombre de Usuario: </label>
+            <input type="text" placeholder="Usuario" class="textousuario"> 
+       </div>
+       <div class="usuario">
+          <label class="labelusuario">(*)Correo Electronico:  </label>
+            <input type="text" placeholder="Usuario" class="textousuario"> 
+       </div>
+       <div class="cbxrecuperar">
+          <label class="labelpregunta">(*)Pregunta Secreta:  </label>
+          
+         <select name="cbxrecuperar" onChange="combo(this, 'recuperarcontra')" onMouseOut="comboInit(this, 'recuperarcontra')">
+          <option> Nombre de mascota </option>
+          <option> Mejor amigo de la infancia </option>
+          <option> Color Favorito </option>
+         </select>
+       </div>
+       <div class="usuario">
+          <label class="labelusuario">(*)Respuesta:  </label>
+            <input type="text" placeholder="Usuario" class="textousuario"> 
+       </div>
+
+    	<div class="botones">
+      		<a href="#" class="botoningresar">Aceptar</a>
+      		<a href="#" class="botoningresar">Salir</a>
+       	</div>
+      	
+      </form>
+
+	</div>
+</body>

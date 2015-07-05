@@ -1,0 +1,198 @@
+body{
+	font-size: 16px;
+	font-family: sans-serif;
+	color:white; 
+	background: #d2d2d2;  
+}
+
+.container{
+
+	margin: 2em;
+	background: white;
+	width: 95%;
+	height: 50em;
+	border: 2px solid #FF64E8;
+	border-radius: 10px;	
+	box-shadow: rgba(0,0,0,1) 10px 10px 70px; 
+	position: relative;
+	text-align: center;
+
+}
+
+header{
+	height: 7em;
+	background: black;
+	position: relative;
+	width: 100%;
+	border-radius: 8px 8px 0 0;
+}
+
+	header .titulo{
+		text-align: center; 
+		font-family: 'Dancing Script', cursive; 
+		font-size: 3em;
+		margin: 0; 
+	}
+
+
+p{
+	color: white;
+}
+
+h2{
+	color: black;
+	font-family: 'Dancing Script', cursive;
+	font-size: 1.5em;
+	margin: 0 ;
+	height: 3em;
+	position: absolute;
+	margin-left: 6em;
+
+}
+
+.h2 .titulo1{
+
+
+}
+
+.numerodocumento{
+	width: 45%;
+	height: 2em;
+	margin: 1em;
+	color: black;
+}
+
+.numerodocumento1{
+	width: 45%;
+	height: 2em;
+	margin: 1em;
+	color: black;
+}
+
+.contraseña{
+	width: 45%;
+	height: 2em;
+	margin: 1em;
+	color: black;
+	
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+form{
+	margin: 0 35em 0 0;
+	width: 100%;
+	display: inline-block; 
+}
+
+input{
+
+	height: 2em;
+	border-radius: 3px;
+	box-shadow: rgba(255,100,232,4) 10px 10px 10px;
+	border: 1px solid black;
+}
+
+select{
+	height: 2em;
+	border-radius: 3px;
+	box-shadow: rgba(255,100,232,4) 10px 10px 10px;
+	border: 1px solid black;
+}
+
+.numerodocumento .textodocumento{
+	margin-left: 19em;
+}
+
+.numerodocumento1 .textodocumento{
+	margin-left: 19em;
+
+}
+
+.contraseña .textodocumento{
+	margin-left: 15em;
+}
+
+.cbxrecuperar .labelrecuperar{
+	color: black;
+	margin: 2em;
+	margin-left: 6em;
+	position: absolute;
+
+
+}
+
+.cbxrecuperar{
+
+	margin: 1em;
+	margin-left:0 ;
+	color: black;
+}
+
+.labeldocumento{
+	margin-left: 6em;
+	position: absolute;
+}
+
+.labeldocumento1{
+    margin-left: 6em;
+	position: absolute;
+}
+
+.botones{
+	margin: 1em 2em 1em 4em;
+}
+
+.botoningresar{
+	padding: .5em 1em;
+	background: #FF64E8;
+	border-radius: 5px;
+}
+
+.botonvolver{
+	padding: .5em 1em;
+	background: #FF64E8;
+	border-radius: 5px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin: 1em;
+}
+
+
+.ladoizquierdo{
+	width: 45%;
+	margin: 0 ;
+	display: inline-block;
+}
+
+.ladoderecho{
+	width: 45%;
+	margin: 0;
+	display: inline-block;
+}
+
+.segundoizquierdo{
+	width: 45%;
+	margin: 3em 1em ;
+	
+}
+
+.terceroizquierdo{
+	width: 45%;
+	margin: 3em 1em ;
+}
+
+.segundoderecho{
+	width: 45%;
+	margin: 3em 1em;
+}
+
+.terceroderecho{
+	width: 45%;
+	margin: 9em 1em;
+}
+
