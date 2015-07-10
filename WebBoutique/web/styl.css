@@ -1,3 +1,11 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    
+*/
 body{
 	font-size: 16px;
 	font-family: sans-serif;
@@ -6,15 +14,17 @@ body{
 }
 
 .container{
-	margin: 2em 15em ;
+
+	margin: 2em;
 	background: white;
-	width: 60%;
-	height: 37em;
+	width: 95%;
+	height: 30em;
 	border: 2px solid #FF64E8;
 	border-radius: 10px;	
 	box-shadow: rgba(0,0,0,1) 10px 10px 70px; 
 	position: relative;
 	text-align: center;
+
 }
 
 header{
@@ -33,32 +43,38 @@ header{
 	}
 
 
-.usuario{
-	position: relative;
-	text-align: center;
-	width: 40em;
-	height: 2em;
-	margin: 1em 4em 0 3em;
-	color: black;
-}
-
-a{
-	text-decoration: none;
-	color: black;	
-}
-
 p{
 	color: black;
 }
 
+.numerodocumento{
+	width: 45%;
+	height: 2em;
+	margin: 1em;
+	color: black;
+}
+
+.contraseña{
+	width: 45%;
+	height: 2em;
+	margin: 1em;
+	color: black;
+	
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
 form{
-	margin: 3em 13em 0 0;
-	width: 60%;
-	display: inline-block;
-	text-align: center;
+	margin: 0 35em 0 0;
+	width: 100%;
+	display: inline-block; 
 }
 
 input{
+
 	height: 2em;
 	border-radius: 3px;
 	box-shadow: rgba(255,100,232,4) 10px 10px 10px;
@@ -72,28 +88,35 @@ select{
 	border: 1px solid black;
 }
 
-.usuario .textousuario{
-	margin-left: 19em;
+.numerodocumento .textodocumento{
+	margin-left: 15em;
+}
+
+.contraseña .textodocumento{
+	margin-left: 13em;
 }
 
 .cbxrecuperar .labelrecuperar{
 	color: black;
-	margin: 4em 4em;
-	margin-left: 19em;
-	position: absolute;
+	margin: 2em;
+	margin-left: 3em;
+
+
 }
 
 .cbxrecuperar{
-	margin-left: 5em;
+
+	margin: 1em;
+	margin-left: 4em;
 	color: black;
 }
 
-.labelusuario{
+.labeldocumento{
 	position: absolute;
+	margin-left: 3em;
 }
-
 .botones{
-	margin: 4em 0 0 4em;
+	margin: 1em 2em 1em 4em;
 }
 
 .botoningresar{
@@ -102,5 +125,24 @@ select{
 	border-radius: 5px;
 }
 
+.botonvolver{
+	padding: .5em 1em;
+	background: #FF64E8;
+	border-radius: 5px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin: 1em;
+}
 
+.ladoizquierdo{
+	width: 45%;
+	margin: 0;
+	display: inline-block;
+}
 
+.ladoderecho{
+	width: 45%;
+	margin: 0;
+	display: inline-block;
+}
