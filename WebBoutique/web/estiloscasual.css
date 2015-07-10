@@ -1,0 +1,213 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9/07/2015, 08:12:08 PM
+    Author     : DELL
+*/
+
+@font-face {
+	font-family: 'Boutique';
+	src:url('Iconos/fonts/Boutique.eot?-hdk1i0');
+	src:url('Iconos/fonts/Boutique.eot?#iefix-hdk1i0') format('embedded-opentype'),
+		url('Iconos/fonts/Boutique.woff?-hdk1i0') format('woff'),
+		url('Iconos/fonts/Boutique.ttf?-hdk1i0') format('truetype'),
+		url('Iconos/fonts/Boutique.svg?-hdk1i0#Boutique') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'Boutique';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-desktop:before {
+	content: "\e600";
+}
+
+.icon-phone:before {
+	content: "\e601";
+}
+
+.icon-laptop:before {
+	content: "\e602";
+}
+
+.icon-tablet:before {
+	content: "\e603";
+}
+
+.icon-user:before {
+	content: "\e604";
+}
+
+.icon-star:before {
+	content: "\e605";
+}
+
+.icon-compra:before {
+	content: "\e607";
+	color: white;
+	font-size: 1.5em;
+	text-decoration: none;
+	margin: 0;
+}
+
+.icon-facebook:before {
+	content: "\ea8d";
+	color: white;
+}
+
+.icon-twitter:before {
+	content: "\ea92";
+	color: white;
+}
+
+.icon-buscar:before {
+	content: "\e606";
+	color: white; 
+	margin-right: 0 !important;
+	margin-left: 0.2em !important;
+	font-size: 1em;
+	padding: 0;
+}
+
+.icon-chat:before {
+	content: "\e608";
+	color: white;
+	font-size: 1.5em;
+	text-decoration: none;
+	margin: 0;
+} 
+
+body{
+	font-size: 16px;
+	font-family: sans-serif;
+	color:white;
+	background: #d2d2d2;
+}
+
+.container{
+
+	margin: 2em;
+	background: white;
+	width: 95%;
+	height: 100%;
+	border: 2px solid #FF64E8;
+	border-radius: 10px;	
+	box-shadow: rgba(0,0,0,1) 10px 10px 70px;
+
+}
+
+header{
+	height: 10em;
+	background: black;
+	position: relative;
+	width: 100%;
+	border-radius: 8px 8px 0 0;
+	
+}
+
+	header h1{
+		text-align: center;
+		font-family: 'Dancing Script', cursive;
+		font-size: 3em;
+		margin: 0; 
+	}
+
+	.logos_header{
+		position: absolute;
+		right: 0;
+		top: 5.5em;
+		margin-right: 10em; 
+
+	}
+	.logos_header a{
+		margin: 1em;
+		text-decoration: none;
+
+	}
+ 	.icon-chat:hover, .icon-compra:hover{
+ 		color: #FF64E8;
+ 		text-decoration: underline;
+ 	}
+section{
+
+	display:flex;
+	flex-flow:row wrap;
+	flex-wrap:wrap;
+	justify-content: space-around;  
+}
+	.imagenes{ 
+		color: black;
+		margin: 1em;
+		text-align: center;
+		width: 300px; 
+		display: inline-block;
+
+	}
+		.imagenes img{
+			border: 2px solid black;
+			box-shadow: rgba(255,100,232,4) 10px 10px 10px;
+		}
+
+		.imagenes p{
+
+			font-size: 1em;
+		}
+
+.button{
+
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	top: 4em;
+	margin-left: 5em;
+	padding: 0.5em 1em;
+	background: #FF64E8;
+	border-radius: 0.3em;
+}
+
+	.button:hover{
+		color:white;
+		text-decoration: underline;
+	}
+
+footer{
+	background: black;
+	height: 16em;
+	text-align: center;
+	border-radius: 0 0 8px 8px; 
+}
+
+footer h2:first-child{
+	margin-top: 2em;
+}
+
+footer+h2{
+	margin-top: 2em;
+}
+
+		.icon-facebook, .icon-twitter{
+			font-size: 2em;
+			text-decoration: none;
+
+		}	
+
+		.icon-facebook:hover, .icon-twitter:hover{
+			color:#FF64E8;
+			text-decoration: underline;
+			
+		}
